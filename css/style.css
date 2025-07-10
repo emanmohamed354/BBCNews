@@ -1,0 +1,240 @@
+:root 
+{
+    --red: rgb(184, 0, 0);
+    --gray:rgb(230, 232, 234);
+}
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    direction: rtl;
+}
+.logo
+{
+    cursor: pointer;
+    width: 300px;
+}
+.logo:hover
+{
+    border-bottom: 5px solid white!important;
+}
+.top
+{
+    background-color: var(--red) !important;
+}
+
+.navbar
+{
+    background-color: white !important;
+    border-bottom: 2px solid var(--gray) ;
+    height: 50px !important;
+}
+.navbar-nav
+{
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: white;
+}
+.nav-link
+{
+    color: black;
+    display: inline-block;
+    margin:0 5px;
+    transition: border-bottom 0s;
+}
+.nav-link:hover
+{
+    border-bottom: 5px solid var(--red) !important;
+}
+
+.choosen
+{
+    border-bottom: 5px solid var(--red) !important;
+    display: inline-block;
+    margin: 0;
+    
+}
+.timing
+{
+    font-size: 15px;
+    color: gray;
+}
+.container h3.mb-2
+{
+    margin-bottom: 20px !important;
+}
+.container h3.mb-2:hover{
+    color: var(--red);
+    text-decoration: underline;
+    cursor: pointer;
+    display: inline-block;
+}
+.basic .row:first-child, .video .row:first-child, .Programs .row:first-child 
+{
+    height: 470px;
+}
+.basic .row div ,.video .row div ,.olympiad .row div ,.Programs .row div,.election .row div ,.climate .row div,.economy .row div,.health .row div
+{
+    cursor: pointer;
+}
+.basic .row div:hover h3 ,.video .row div:hover h3,.Programs .row div:hover h3
+{
+    text-decoration: underline;
+}
+.basic .row div div:hover h6, .video .row div div:hover h6 , .olympiad .row div:hover h6,.Programs .row div div:hover h6, .election .row div:hover h6,
+.climate .row div:hover h6,.economy .row div:hover h6,.health .row div:hover h6
+{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .basic
+    {
+        height: 1400px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .basic
+    {
+        height: 1400px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .basic
+    {
+        height: 1250px ;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .basic
+    {
+        height: 720px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .basic
+    {
+        height: 680px;
+    }
+}
+.split
+{
+    height: 2px;
+    box-sizing: border-box;
+    background-color: var(--gray);
+}
+.adver
+{
+    background-color: var(--gray);
+    padding: 10px;
+}
+.adver1
+{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    
+}
+.adver2
+{
+    background-image: linear-gradient(to right, black , black, var(--red));
+    color: white;
+
+}
+@media only screen and (max-width: 900px) {
+    .adver2
+    {
+        
+        background-image: linear-gradient(to top, black , black, var(--red));
+        display: block !important;
+        margin: auto !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .video,.Programs
+    {
+        height: 1000px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .video,.Programs
+    {
+        height: 1000px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .video,.Programs
+    {
+        height: 950px ;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .video,.Programs
+    {
+        height: 500px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .video,.Programs
+    {
+        height: 480px;
+    }
+}
+.contact div span
+{
+    margin: 10px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contact .row div:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.num h5
+{
+    cursor: pointer;
+}
+.num h5:hover
+{
+    text-decoration: underline;
+}
+.num h1
+{
+    color: var(--red);
+}
+footer .row span
+{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+footer .row span:hover
+{
+    text-decoration: underline;
+}
+.splitter
+{
+    background-color: rgb(86 87 88) !important;
+    height: 0.7px;
+}
